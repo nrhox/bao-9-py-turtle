@@ -3,7 +3,7 @@ import random
 import math
 
 t = turtle.Turtle()
-t.speed(10)
+t.speed(0)
 
 colors = [
     "#C69C00",
@@ -61,3 +61,4 @@ def drawPiramida(fondasi, lebas_segitiga):
 
 
 drawPiramida(11, 70)
+turtle.done()
